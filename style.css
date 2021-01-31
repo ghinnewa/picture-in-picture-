@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+ background-color: rgb(240, 205, 226);
+    display: flex;
+    
+      align-items: center;
+justify-content: center; 
+text-align: center;
+min-height: 100vh;
+
+}
+.btn-container{
+
+   padding: 10px 10px;
+ border: solid 1px  rgb(131, 131, 131);
+ border-radius: 50%;
+ box-shadow: inset 0px 20px 10px -17px rgb(255, 255, 255);
+ background-color: rgb(182, 181, 181);
+ background-color: rgb(180, 180, 180); 
+ /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.432); */
+}
+.button {
+    height: 75px;
+    width: 75px;
+    cursor:pointer;
+    outline: none;
+    border-radius:50% ;
+    border: none;
+    padding: 29px 15px;
+    letter-spacing: 3px;
+    font-weight: 0550;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.815);
+    background: linear-gradient(to bottom , rgba(255, 255, 255, 0.801), rgba(1, 255, 242, 0.726));
+    box-shadow:inset 0px 2px 2px  2px rgba(0, 0, 0, 0.486);
+}
+.button:hover{
+    background: linear-gradient(to bottom , rgba(247, 246, 246, 0.781), rgba(0, 255, 255, 0.603));
+}
+.button:active{
+    /* background: linear-gradient(to bottom , rgba(247, 246, 246, 0.562), rgba(0, 255, 255, 0.473)); */
+    box-shadow:inset  0px 2px 3px  3px rgba(0, 0, 0, 0.486);
+    font-size: 0.8rem;
+}
